@@ -1,0 +1,5 @@
+# protect xmlrpc Deny all access to this file
+<Files xmlrpc.php>
+    Order Deny,Allow
+    Deny from all
+</Files>

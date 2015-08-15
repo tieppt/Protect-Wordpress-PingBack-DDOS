@@ -1,0 +1,4 @@
+# protect xmlrpc return 403 Error when access this file.
+<IfModule mod_alias.c>
+    RedirectMatch 403 /xmlrpc.php
+</IfModule>

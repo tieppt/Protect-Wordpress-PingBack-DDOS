@@ -1,0 +1,4 @@
+# protect xmlrpc Redirect to specific page
+<IfModule mod_alias.c>
+    Redirect 301 /xmlrpc.php http://homepage.com/
+</IfModule>
